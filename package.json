@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test-ci": "istanbul cover node_modules/mocha/bin/_mocha"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "istanbul": "^0.4.5",
     "mocha": "^3.5.0"
   }
 }

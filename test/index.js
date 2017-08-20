@@ -13,5 +13,14 @@ describe('Array', function() {
 describe('index', function() {
     it('should be number 2',function() {
         assert.equal(index.a,2);
-    })
+    });
+
+    it('should be 233',() => {
+        assert.equal(index.testB,233);
+    });
+
+    it('should be equal',() => {
+        assert.deepEqual(index.testB,index.testFuncB());
+        assert.deepEqual(index.testB,index.testFunc());
+    });
 })
