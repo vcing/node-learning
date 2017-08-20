@@ -1,3 +1,1 @@
-const assert = require('assert');
-
-console.log('ok');
+exports.a = 2;
