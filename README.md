@@ -1,6 +1,6 @@
 
-#test
-[![Linux Build][travis-image]][travis-url]
+# test
+[![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
 [travis-image]: https://travis-ci.org/vcing/node-learning.svg?branch=master
